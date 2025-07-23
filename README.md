@@ -1,4 +1,4 @@
-# DevOps in 60 Days: Full Course for Beginners to Pro!
+# Complete Free DevOps Course – 60 Days from Zero to Pro!
 
 ## 🔹 DevOps & Linux Basics
 | Day        | Topic                                                                             |
