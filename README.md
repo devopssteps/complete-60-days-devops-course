@@ -112,9 +112,7 @@
 ## ✅ Bonus Materials
  - PDF Cheat Sheets (Docker, kubectl, Terraform, Ansible)
  - GitHub Repos for Each Project
- - Telegram or Discord Support Group
- - Weekly Challenge Tasks
- - Ask Me Anything” Livestreams
+ 
 
 
 
