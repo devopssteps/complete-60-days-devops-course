@@ -108,7 +108,7 @@
 
 
 ## Our final project DevOps project
-![Final-devops-project](https://github.com/rajivsiddiqui/Command-Collection-Rajiv/blob/main/Project-2-Javawebsite/cicd-jenkins-maven-docker-kubernetes-10-june-2025.png) 
+![Final-devops-project](https://github.com/devopssteps/complete-60-days-devops-course/blob/main/cicd-jenkins-maven-docker-kubernetes.png) 
 ## ✅ Bonus Materials
  - PDF Cheat Sheets (Docker, kubectl, Terraform, Ansible)
  - GitHub Repos for Each Project
