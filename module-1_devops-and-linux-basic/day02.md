@@ -37,6 +37,7 @@ Scenario: Deploy a Node.js App using DevOps
     - Builds Docker image
     - Pushes image to Docker Hub
 - 🌐 Ansible connects to EC2 or prepares Kubernetes manifests
+- 🌐 Terraform connects to craete EC2 by code
 - 🐳 Docker runs containers
 - ☸️ Kubernetes (EKS) deploys updated containers
 - 📊 Prometheus + Grafana monitor CPU, memory, and response time
