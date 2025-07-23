@@ -1,4 +1,4 @@
-## "DevOps in 60 Days: Full Course for Beginners to Pro!"
+# DevOps in 60 Days: Full Course for Beginners to Pro!
 
 ## 🔹 DevOps & Linux Basics
 | Day        | Topic                                                                             |
