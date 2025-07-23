@@ -104,7 +104,7 @@
 | Day 58     | Ansible App Provisioning                                        |
 | Day 59     | Kubernetes Deploy on EKS                                   |
 | Day 60     | Monitoring with Prometheus + Grafana
-| Project    | Complte devops porject including what we have learned already         |
+| Project    | Complete devops porject including what we have learned already         |
 
 
 ## Our final project DevOps project
