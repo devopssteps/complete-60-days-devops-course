@@ -4,9 +4,7 @@
 DevOps is a combination of:
  - Dev = Development (coding, building features)
  - Ops = Operations (deploying, monitoring, infrastructure)
-Key Concepts:
- - Continuous Integration (CI)
- - Continuous Delivery/Deployment (CD)
+
 Definition: DevOps is a cultural and technical approach that aims to integrate software development (Dev) and IT operations (Ops) to shorten the software development life cycle and provide continuous delivery with high quality.
 
 ### 🔸 Real-World Example:
