@@ -4,7 +4,9 @@
 DevOps is a combination of:
  - Dev = Development (coding, building features)
  - Ops = Operations (deploying, monitoring, infrastructure)
-
+Key Concepts:
+ - Continuous Integration (CI)
+ - Continuous Delivery/Deployment (CD)
 Definition: DevOps is a cultural and technical approach that aims to integrate software development (Dev) and IT operations (Ops) to shorten the software development life cycle and provide continuous delivery with high quality.
 
 ### 🔸 Real-World Example:
@@ -63,14 +65,37 @@ git push origin main
 # Step 3: Jenkins auto-builds and deploys
 ```
 
-### 🔹 CI/CD Tools Examples
-| Task             | Tool Example                  |
-| ---------------- | ----------------------------- |
-| Code repo        | GitHub, GitLab                |
-| CI/CD pipeline   | Jenkins, GitHub Actions       |
-| Containerization | Docker                        |
-| Orchestration    | Kubernetes                    |
-| Infrastructure   | Terraform, AWS CloudFormation |
+
+### ✅ DevOps Tools Overview
+| Stage        | Tool                     | Purpose                                   |
+| ------------ | ------------------------ | ----------------------------------------- |
+| Plan         | Jira, Trello             | Project and issue tracking                |
+| Develop      | Git, GitHub, GitLab      | Source code management                    |
+| Build        | Maven, Gradle, npm       | Build automation                          |
+| CI/CD        | Jenkins, GitHub Actions  | Automate testing, integration, deployment |
+| Test         | Selenium, JUnit, PHPUnit | Automated testing                         |
+| Deploy       | Ansible, Terraform       | Deploy infrastructure                     |
+| Containerize | Docker                   | Containerize applications                 |
+| Orchestrate  | Kubernetes (EKS/GKE/AKS) | Manage containers at scale                |
+| Monitor      | Prometheus, Grafana, ELK | Log and performance monitoring            |
+| Alert        | Alertmanager, PagerDuty  | Incident management                       |
+
+
+### ✅ Real-Time Workflow Example
+Scenario: Deploy a Node.js App using DevOps
+ - 👨‍💻 Developer pushes code to GitHub
+ - ⚙️ Jenkins detects the push via webhook, runs pipeline:
+    - Pulls code
+    - Runs unit tests (with Mocha or Jest)
+    - Builds Docker image
+    - Pushes image to Docker Hub
+- 🌐 Ansible connects to EC2 or prepares Kubernetes manifests
+- 🌐 Terraform connects to craete EC2 by code
+- 🐳 Docker runs containers
+- ☸️ Kubernetes (EKS) deploys updated containers
+- 📊 Prometheus + Grafana monitor CPU, memory, and response time
+- 🔔 Alertmanager sends Slack alert if issues detected
+
 
 
 
