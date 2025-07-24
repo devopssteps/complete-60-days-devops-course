@@ -1,6 +1,6 @@
 ## ✅ Day 01: What is DevOps? SDLC vs DevOps, CI/CD Concepts
 
-## 🔹 1. What is DevOps?
+## 🔹 What is DevOps?
 DevOps is a combination of:
  - Dev = Development (coding, building features)
  - Ops = Operations (deploying, monitoring, infrastructure)
@@ -18,7 +18,7 @@ In traditional setup, there’s delay, miscommunication. In DevOps:
  - Deploy in minutes instead of days.
 
 
-## 🔹 2. SDLC vs DevOps
+## 🔹 SDLC vs DevOps
 | Feature            | Traditional SDLC             | DevOps                               |
 | ------------------ | ---------------------------- | ------------------------------------ |
 | Process            | Sequential (Waterfall/Agile) | Continuous (CI/CD pipeline)          |
@@ -41,7 +41,7 @@ PLAN → DEVELOP → BUILD → TEST → RELEASE → DEPLOY → OPERATE → MONIT
 ```
 
 
-### 🔹 3. What is CI/CD?
+### 🔹 What is CI/CD?
 | Term   | Full Form                        | Description                                      |
 | ------ | -------------------------------- | ------------------------------------------------ |
 | **CI** | Continuous Integration           | Automatically testing and merging code           |
@@ -93,10 +93,6 @@ Scenario: Deploy a Node.js App using DevOps
 - ☸️ Kubernetes (EKS) deploys updated containers
 - 📊 Prometheus + Grafana monitor CPU, memory, and response time
 - 🔔 Alertmanager sends Slack alert if issues detected
-
-
-
-
 
 
 
