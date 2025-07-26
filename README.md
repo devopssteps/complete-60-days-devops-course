@@ -3,15 +3,14 @@
 ## 🔹 DevOps & Linux Basics
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 01     | What is DevOps, CI/CD Concepts                                                    |
-| Day 02     | DevOps Tools Overview & Real-Time Workflow        |
-| Day 03     | Linux File System & Commands (Hands-on)                     |
-| Day 04     | Users, Permissions, Groups, Sudoers            |
-| Day 05     | Networking, SSH, SCP, curl, wget                                                  |
-| Day 06     | Bash Scripting Basics                                                   |
-| Day 07     | Practice Task: Bash Script for Backup        |
-| Day 08     | Git & GitHub Basics                     |
-| Day 09     | Git Branching, Merging, Rebase            |
+| Day 01     | DevOps and CI/CD Concepts, DevOps roadmap, DevOps Tools Overview & Real-Time Workflow                                                   |
+| Day 02     | Linux File System & Commands (Hands-on)                     |
+| Day 03     | Users, Permissions, Groups, Sudoers            |
+| Day 04     | Networking, SSH, SCP, curl, wget                                                  |
+| Day 05     | Bash Scripting Basics                                                   |
+| Day 06     | Practice Task: Bash Script for Backup        |
+| Day 07     | Git & GitHub Basics                     |
+| Day 08     | Git Branching, Merging, Rebase            |
 
 ## 🔹Docker Fundamentals
 | Day        | Topic                                                                             |
