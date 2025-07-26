@@ -1,8 +1,8 @@
 # Complete Free DevOps Course – 60 Days from Zero to Pro!
 ## https://www.youtube.com/@devopssteps
 ## 🔹 DevOps & Linux Basics
-| Day        | Topic                                                                             |
-| ---------- | --------------------------------------------------------------------------------- |
+| Day        | Topic                                                                                                 |
+| ---------- | ------------------------------------------------------------------------------------------------------|
 | Day 01     | DevOps and CI/CD Concepts, DevOps roadmap, DevOps Tools Overview & Real-Time Workflow                                                   |
 | Day 02     | Linux File System & Commands (Hands-on)                     |
 | Day 03     | Users, Permissions, Groups, Sudoers            |
