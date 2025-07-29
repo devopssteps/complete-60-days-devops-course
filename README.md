@@ -4,8 +4,8 @@
 | Day        | Topic                                                                                                 |
 | ---------- | ------------------------------------------------------------------------------------------------------|
 | Day 01     | DevOps and CI/CD Concepts, DevOps roadmap, DevOps Tools Overview & Real-Time Workflow                                                   |
-| Day 02     | Linux basic for devops (Hands-on)                     |
-| Day 03     | Networking basic for devops (Hands-on)                                                     |
+| Day 02     | Linux basic for devops with Hands-on                       |
+| Day 03     | Networking basic for devops with Hands-on                                                    |
 | Day 04     | Bash Scripting Basics                                                   |
 | Day 06     | Practice Task: Bash Script for Backup        |
 | Day 07     | Git & GitHub Basics                     |
