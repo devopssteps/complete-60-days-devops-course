@@ -6,7 +6,7 @@
 | Day 01     | What is DevOps, CI/CD Concepts and DevOps Tools Overview & Real-Time Workflow                                                    |
 | Day 02     | Linux basic for devops & Commands (Hands-on)                     |
 | Day 03     | Networking basic for devops & Commands (Hands-on)                                                      |
-| Day 04     | Bash Scripting Basics for devops & Commands (Hands-on)                                                          |
+| Day 04     | Bash Scripting Basics for devops With Hands-on demo                                                          |
 | Day 05     | Git & GitHub Basics & Commands (Hands-on)                       |
 | Project    | Create a shell script project that will backup your compouter             |
 
