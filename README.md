@@ -1,15 +1,14 @@
 # Complete Free DevOps Course – 60 Days from Zero to Pro!
 ## https://www.youtube.com/@devopssteps
 ## 🔹 DevOps & Linux Basics
-| Day        | Topic                                                                                                 |
-| ---------- | ------------------------------------------------------------------------------------------------------|
-| Day 01     | DevOps and CI/CD Concepts, DevOps roadmap, DevOps Tools Overview & Real-Time Workflow                                                   |
-| Day 02     | Linux basic for devops with Hands-on                       |
-| Day 03     | Networking basic for devops with Hands-on                                                    |
-| Day 04     | Bash Scripting Basics                                                   |
-| Day 06     | Practice Task: Bash Script for Backup        |
-| Day 07     | Git & GitHub Basics                     |
-| Day 08     | Git Branching, Merging, Rebase            |
+| Day        | Topic                                                                             |
+| ---------- | --------------------------------------------------------------------------------- |
+| Day 01     | What is DevOps, CI/CD Concepts and DevOps Tools Overview & Real-Time Workflow                                                    |
+| Day 02     | Linux basic for devops & Commands (Hands-on)                     |
+| Day 03     | Networking basic for devops                                                  |
+| Day 04     | Bash Scripting Basics for devops                                                       |
+| Day 05     | Git & GitHub Basics                    |
+| Project    | Create a shell script project that will backup your compouter             |
 
 ## 🔹Docker Fundamentals
 | Day        | Topic                                                                             |
