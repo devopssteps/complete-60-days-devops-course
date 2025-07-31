@@ -13,14 +13,14 @@
 ## 🔹Docker Fundamentals
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 10     | What is Docker & Why Use It                                                 |
-| Day 11     | Docker Images, Containers, Volumes       |
-| Day 12     | Dockerfile & Building Custom Images                   |
-| Day 13     | Docker Compose for Multi-container Apps           |
-| Day 14     | Docker Networking                                               |
-| Day 15     | Docker Registry (Hub + Private)                                                |
-| Day 16     | Real-Time Docker Troubleshooting       |
-| Project    | Dockerize a simple PHP/NodeJS app + DB using Docker Compose                     |
+| Day 07     | Docker Concepts With Hands On Example                                       |
+| Day 08     | Docker installation,Docker Registry (Hub + Private), Docker Images, Containers        |
+| Day 09     | Dockerfile & Building Custom Images               |
+| Day 10     | Docker volume with Hands on Demo       |
+| Day 11     | Docker Networking with Hands on Demo                                             |
+| Day 12     | Real-Time Docker Troubleshooting & most common docker command we need know      |
+| Day 13     | Project: Explain docker compose and Dockerize a simple PHP/NodeJS app + DB using Docker Compose                     |
+
 
 
 ## 🔹CI/CD with Jenkins
