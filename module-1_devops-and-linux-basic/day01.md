@@ -12,7 +12,8 @@ Imagine you're building a web app:
  - Developer writes code.
  - Ops team deploys the app to a server.
 
-In traditional setup, there’s delay, miscommunication. In DevOps:
+In traditional setup, there’s delay, miscommunication. <br>
+In DevOps:
  - Developer and Ops work together
  - Use automation tools (like Jenkins, Docker, GitHub Actions)
  - Deploy in minutes instead of days.
