@@ -41,7 +41,6 @@ PLAN → DEVELOP → BUILD → TEST → RELEASE → DEPLOY → OPERATE → MONIT
     └─────────────────── Continuous Feedback ───────────────────┘
 ```
 
-
 ### 🔹 What is CI/CD?
 | Term   | Full Form                        | Description                                      |
 | ------ | -------------------------------- | ------------------------------------------------ |
@@ -64,6 +63,11 @@ git push origin main
 # Step 3: Jenkins auto-builds and deploys
 ```
 
+### 🧠 Pro Tips to Remember
+ - DevOps is not a tool, it’s a culture + automation
+ - CI = testing + building on each commit
+ - CD = deploying automatically or semi-automatically
+ - Aim = faster releases, fewer bugs, happy users
 
 ### ✅ DevOps Tools Overview
 | Stage        | Tool                     | Purpose                                   |
