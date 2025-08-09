@@ -55,7 +55,7 @@
 | Day 31     | Minikube Installation & kubectl      |
 | Day 32     | Pods, ReplicaSets, Deployments                  |
 | Day 33     | Services, Ingress, ConfigMaps, Secrets          |
-| Day 34     | 35	Scaling, Rolling Updates, Health Checks                                          |
+| Day 34     | Scaling, Rolling Updates, Health Checks                                          |
 | Day 35     | Helm Basics                                                |
 | Day 36     | Helm Charts with Jenkins Deploy      |
 | Day 37     | Professonal kubernetes cluster create by EKS                                                  |
