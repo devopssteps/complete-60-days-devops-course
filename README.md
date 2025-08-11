@@ -12,7 +12,7 @@
 
 ## 🔹Docker Fundamentals
 | Day        | Topic                                                                             |
-| -----------| ------------------------------------------------------------------------------------------------------- |
+| ---------- | ------------------------------------------------------------------------------------------------------- |
 | Day 07     | Docker Concepts With Hands On Example                                       |
 | Day 08     | Docker installation,Docker Registry (Hub + Private), Docker Images, Containers        |
 | Day 09     | Docker volume with Hands on Demo       |
