@@ -11,7 +11,7 @@
 | Day 06     | Project: Deploy an E-commerce Website with PHP & MySQL Using Shell Script            |
 
 ## 🔹Docker Fundamentals
-| Day        | Topic                                                                             |
+| Day        | Topic                                                                                                   |
 | ---------- | ------------------------------------------------------------------------------------------------------- |
 | Day 07     | Docker Concepts With Hands On Example                                       |
 | Day 08     | Docker installation,Docker Registry (Hub + Private), Docker Images, Containers        |
