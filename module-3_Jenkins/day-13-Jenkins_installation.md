@@ -1,4 +1,4 @@
-# Day 13: 🔧 Jenkins Installation (Local + Docker) – Hands-On Example
+# Day 13: Jenkins Installation (Local + Docker) – Hands-On Example
 
 We'll cover both methods:
 
