@@ -25,14 +25,15 @@
 ## 🔹CI/CD with Jenkins
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 17     | Jenkins Installation (Local + Docker)                                               |
-| Day 18     | Jenkins Jobs, Pipelines, Plugins      |
-| Day 19     | Jenkins Declarative Pipeline                   |
-| Day 20     | GitHub Webhook Integration           |
-| Day 21     | CI/CD for Docker Project                                          |
-| Day 22     | Jenkins with Email, Slack Notification                                                |
-| Day 23     | Shared Libraries & Pipeline Best Practices       |
-| Project    | CI/CD pipeline for Docker app using Jenkins + GitHub                     |
+| Day 13     | Jenkins Installation (Local + Docker)                                               |
+| Day 14     | Jenkins Jobs, Pipelines, Plugins      |
+| Day 15     | Jenkins Declarative Pipeline in advance level                  |
+| Day 16     | GitHub Webhook Integration           |
+| Day 17     | CI/CD for Docker Project                                          |
+| Day 18     | Jenkins with Email Notification                                                |
+| Day 19     | Jenkins with Slack Notification                                                |
+| Day 20     | Shared Libraries & Pipeline Best Practices       |
+| Day 21     | Project: CI/CD pipeline for Docker app using Jenkins + GitHub                     |
 
 
 ## 🔹Configuration Management with Ansible
