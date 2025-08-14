@@ -1,13 +1,6 @@
 # day-14: Jenkins Jobs, Pipelines, Plugins
 
-### Jenkins Jobs, Pipelines, Plugins
-
-Here’s a complete YouTube video guide on “Jenkins Jobs, Pipelines, and Plugins” with hands-on examples — tailored to help you create an engaging and informative video that ranks well in search results and educates your viewers clearly.
-
-### 🎬 YouTube Video Title:
-🔧 Jenkins Jobs, Pipelines, and Plugins Explained with Hands-On Demo | CI/CD Made Easy!
-
-### 🧠 Video Objective:
+### 🧠 Todays class Objective:
 By the end of this video, viewers will:
  - Understand what Jenkins jobs and pipelines are
  - Learn the difference between freestyle jobs and pipelines
