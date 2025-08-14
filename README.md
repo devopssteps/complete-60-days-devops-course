@@ -32,8 +32,7 @@
 | Day 17     | CI/CD for Docker Project                                          |
 | Day 18     | Jenkins with Email Notification                                                |
 | Day 19     | Jenkins with Slack Notification                                                |
-| Day 20     | Shared Libraries & Pipeline Best Practices       |
-| Day 21     | Project: CI/CD pipeline for Docker app using Jenkins + GitHub                     |
+| Day 20     | Project: CI/CD pipeline for Docker app using Jenkins + GitHub                     |
 
 
 ## 🔹Configuration Management with Ansible
