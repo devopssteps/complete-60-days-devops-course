@@ -7,13 +7,10 @@ By the end of this video, viewers will:
  - Install and use essential Jenkins plugins
  - Build and run a basic CI/CD pipeline with a real example
 
-## 🛠️ Hands-On Jenkins Video Outline
+## 🛠️ Hands-On Demo
 
 ### ✅ 1. Intro 
-“Welcome to Day X of our DevOps series! In this video, we’ll dive deep into Jenkins — how to create jobs, write pipelines, and use plugins — all with hands-on examples. If you're learning CI/CD or preparing for interviews, this is a must-watch!”
-
-### 📢 Call to action:
-“Don’t forget to subscribe and turn on the bell so you don’t miss the rest of the series!”
+In todays class we’ll dive deep into Jenkins — how to create jobs, write pipelines, and use plugins — all with hands-on examples. If you're learning CI/CD or preparing for interviews, this is a must-watch!”
 
 ### 📦 2. What is Jenkins? 
  - Open-source automation server
