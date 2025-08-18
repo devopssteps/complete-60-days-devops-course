@@ -3,7 +3,7 @@
 ### 🔧 Objective:
  - Send email notifications on build success/failure
  
-### ✅ Part 1: Jenkins Email Notification
+### ✅ Jenkins Email Notification
 🔧 Prerequisites:
  - Jenkins installed
  - Jenkins server has internet access
