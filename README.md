@@ -44,7 +44,7 @@
 | Day 24     | Ansible Roles & Variables         |
 | Day 25     | Ansible Vault (Secret Management)                                      |
 | Day 26     | Ansible + Jenkins Integration                                             |
-| Project    | Use Ansible to install and configure Nginx + App on EC2      |
+| Day-27     | Project: Use Ansible to install and configure Nginx + App on EC2      |
 
 ## 🔹Kubernetes Basics
 | Day        | Topic                                                                             |
