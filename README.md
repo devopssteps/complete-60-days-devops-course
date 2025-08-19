@@ -106,7 +106,7 @@
 ## Our final project DevOps project
 ![Final-devops-project](https://github.com/devopssteps/complete-60-days-devops-course/blob/main/cicd-jenkins-maven-docker-kubernetes.png) 
 ## ✅ Bonus Materials
- - PDF Cheat Sheets (Docker, kubectl, Terraform, Ansible)
+ - Command Collecion list (Docker, kubectl, Terraform, Ansible)
  - GitHub Repos for Each Project
  
 
