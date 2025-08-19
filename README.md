@@ -38,15 +38,13 @@
 ## 🔹Configuration Management with Ansible
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 24     | Why Configuration Management? What is Ansible?                                               |
-| Day 25     | Inventory, Ad-hoc Commands, Modules    |
-| Day 26     | Ansible Playbooks (Hands-on)                |
-| Day 27     | Ansible Roles & Variables         |
-| Day 28     | Ansible Vault (Secret Management)                                      |
-| Day 29     | Ansible + Jenkins Integration                                             |
+| Day 21     | Why Configuration Management? What is Ansible?                                               |
+| Day 22     | Inventory, Ad-hoc Commands, Modules    |
+| Day 23     | Ansible Playbooks (Hands-on)                |
+| Day 24     | Ansible Roles & Variables         |
+| Day 25     | Ansible Vault (Secret Management)                                      |
+| Day 26     | Ansible + Jenkins Integration                                             |
 | Project    | Use Ansible to install and configure Nginx + App on EC2      |
-| Project    | Deyply a full kubnerts file by ansible playbook                    |
-
 
 ## 🔹Kubernetes Basics
 | Day        | Topic                                                                             |
