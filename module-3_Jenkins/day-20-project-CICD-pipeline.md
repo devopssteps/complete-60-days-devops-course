@@ -70,7 +70,3 @@ pipeline {
 }
 ```
 
-
-### 🔹 Step 7: Live Test
- - Access the deployed app in a browser or terminal.
- - Show the updated changes live.
