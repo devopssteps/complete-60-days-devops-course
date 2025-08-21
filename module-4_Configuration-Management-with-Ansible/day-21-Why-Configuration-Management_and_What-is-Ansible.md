@@ -8,8 +8,7 @@ Imagine setting up 50 servers manually:
  - Install packages
  - Configure users
  - Start services
- - Apply patches
-   <br>
+ - Apply patches<br>
 🛑 Manual setup = error-prone, inconsistent, hard to scale
 
 ### ✅ What Is Configuration Management?
