@@ -1,7 +1,5 @@
 # day-23 Ansible Playbooks (Hands-on)
 
-# Ansible Playbooks (Hands-on)
-
 ### 🔹 Hands-On Demo: Ansible Playbook for Apache2
 ### Step 1: Create your Ansible Project Directory
 ```sh
