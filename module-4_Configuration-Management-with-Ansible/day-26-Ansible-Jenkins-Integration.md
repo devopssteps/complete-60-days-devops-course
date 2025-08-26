@@ -50,6 +50,10 @@ Push this to your Git repo.
  1. Install Plugins:
       - Git plugin
       - Ansible plugin (or just use shell commands)
+      - SSH plugin -> this one is most important we use this one in the demo
+      - SSH server -> Optional 
+      - Publish Over SSH  -> Optional 
+
  
  2. Create New Freestyle Project
  3. Source Code Management:
