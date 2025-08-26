@@ -49,7 +49,7 @@ Push this to your Git repo.
 ### ✅ Step 3: Configure Jenkins Job
  1. Install Plugins:
       - Git plugin
-      - Ansible plugin (or just use shell commands)
+      - Ansible plugin (or just use shell commands)-> we did not use it in this demo, but we can use this by running asnsible command in deffernt way
       - SSH plugin -> this one is most important we use this one in the demo
       - SSH server -> Optional 
       - Publish Over SSH  -> Optional 
