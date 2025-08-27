@@ -49,16 +49,19 @@
 ## 🔹Kubernetes Basics
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 28     | What is Kubernetes? Architecture                                             |
+| Day 28     | Kubernetes Basic & Architecture                                             |
 | Day 29     | Minikube Installation & kubectl      |
-| Day 30     | Pods, ReplicaSets, Deployments                  |
-| Day 31     | Services, Ingress, ConfigMaps, Secrets          |
-| Day 32     | Scaling, Rolling Updates, Health Checks                                          |
-| Day 33     | Helm Basics                                                |
-| Day 34     | Helm Charts with Jenkins Deploy      |
-| Day 35     | Professonal kubernetes cluster create by EKS                                                  |
-| Day 36     | Professonal kubernetes cluster create by KOPS     |
-| Day 37     | Project: Deploy app with Helm on Minikube using Jenkins pipeline                  |
+| Day 30     | Pods, ReplicaSets, Deployments                 |
+| Day 31     | ConfigMaps, Secrets          |
+| Day 32     | Services, Ingress    |
+| Day 33     | Scaling, Rolling Updates & auto scaling   |
+| Day 34     | Kubernetes Health Checks                                      |
+| Day 35     | Professonal kubernetes cluster create by KOPS                                                  |
+| Day 36     | Professonal kubernetes cluster create by EKS    |
+| Day 37     | Kubernetes Persistent Volumes (PV & PVC)   |
+| Day 38     | Helm Basics                                                |
+| Day 37     | Helm Charts with Jenkins Deploy     |
+| Day 38     | Project: Deploy app with Helm on Minikube using Jenkins pipeline                 |
 
 
 ## 🔹AWS Hands-on DevOps
