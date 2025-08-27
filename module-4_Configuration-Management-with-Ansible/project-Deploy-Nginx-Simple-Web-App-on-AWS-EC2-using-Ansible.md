@@ -1,6 +1,7 @@
 # day 27 :project-Deploy-Nginx-Simple-Web-App-on-AWS-EC2-using-Ansible.md
 
 # 👉 Deploy Nginx + Simple Web App on AWS EC2 using Ansible
+NB: If you don't want to deploy to ec2, then in the hosts file just use localhost then it will deploy the wabsite in your local pc
 
 ### 📌 Hands-On Project Demo
 
