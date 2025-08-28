@@ -18,7 +18,7 @@ Kubernetes, often abbreviated as K8s, is an open-source system designed to autom
   - Container runtime (Docker or containerd)
 📊 See the diagrams 
 
-![Diagram](https://github.com/rajivsiddiqui/devops-60-days-bootcamp/blob/main/module-5_kubernetes/k8s-architecture.png) 
+![Diagram](https://github.com/rajivsiddiqui/image-use/blob/main/k8s-architecture.png) 
 
 ### 📌 3. Hands-On Demo with Minikube 
 Step 1: Start Minikube
