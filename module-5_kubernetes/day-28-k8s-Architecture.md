@@ -6,7 +6,7 @@ Kubernetes, often abbreviated as K8s, is an open-source system designed to autom
  -	Manages containerized apps at scale
  -	Automates deployment, scaling, and healing
 
-### 📌 3. Kubernetes Architecture Overview 
+### 📌 2. Kubernetes Architecture Overview 
 ### 🔷 Control Plane Components (Master Node):
   - API Server: Main entry point
   - Scheduler: Decides where to run Pods
@@ -20,7 +20,7 @@ Kubernetes, often abbreviated as K8s, is an open-source system designed to autom
 
 ![Diagram](https://github.com/rajivsiddiqui/devops-60-days-bootcamp/blob/main/module-5_kubernetes/k8s-architecture.png) 
 
-### 📌 4. Hands-On Demo with Minikube 
+### 📌 3. Hands-On Demo with Minikube 
 Step 1: Start Minikube
 ```sh
 minikube start
