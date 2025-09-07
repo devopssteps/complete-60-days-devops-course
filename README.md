@@ -56,12 +56,12 @@
 | Day 32     | Services, Ingress    |
 | Day 33     | Scaling, Rolling Updates & auto scaling   |
 | Day 34     | Kubernetes Health Checks                                      |
-| Day 35     | Professonal kubernetes cluster create by KOPS                                                  |
-| Day 36     | Professonal kubernetes cluster create by EKS    |
+| Day 35     | Professonal kubernetes cluster create by KOPS                                                 |
+| Day 36     | Professonal kubernetes cluster create by EKS     |
 | Day 37     | Kubernetes Persistent Volumes (PV & PVC)   |
-| Day 38     | Helm Basics                                                |
-| Day 37     | Helm Charts with Jenkins Deploy     |
-| Day 38     | Project: Deploy app with Helm on Minikube using Jenkins pipeline                 |
+| Day 38     | Helm Basics                                            |
+| Day 39     | Project: Deploy NodeJs app with Helm on Minikube using Jenkins pipeline  |
+
 
 
 ## 🔹AWS Hands-on DevOps
