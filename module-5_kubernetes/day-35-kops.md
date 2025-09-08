@@ -32,14 +32,14 @@ KOPS = Kubernetes Operations
  ssh-keygen
 ```
 
-Install tools:
-# Install KOPS
+# Install tools:
+### Install KOPS
 ```sh
 curl -Lo kops https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
 chmod +x kops
 sudo mv kops /usr/local/bin/kops
 ```
-# Install kubectl
+### Install kubectl
 URL: https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-kubectl-binary-with-curl-on-linux
 ```sh
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
