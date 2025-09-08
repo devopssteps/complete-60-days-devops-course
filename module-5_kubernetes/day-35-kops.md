@@ -13,7 +13,7 @@ KOPS = Kubernetes Operations
  - An AWS account (IAM user with ```AdministratorAccess```).
  - A domain or subdomain hosted in Route53 (KOPS uses DNS for cluster discovery). Example: ```devopssteps.com```.
  - Create a ec2 and install the following command to this ec2
-   - Install AWS cli 
+ - Install AWS cli 
   ```sh
    sudo apt update
    sudo apt install unzip
