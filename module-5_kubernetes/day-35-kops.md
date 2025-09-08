@@ -23,6 +23,10 @@ KOPS = Kubernetes Operations
    # chceck the version of AWS Cli
    aws --version
  ```
+  - Confiure AWS cresedtails in ec2
+ ```sh
+ aws configure
+ ```
   - Create a ssh key in ec2
 ```sh
  ssh-keygen
