@@ -73,11 +73,4 @@ kubectl exec -it mysql-1-mariadb-0 /bin/bash
 helm list
 helm uninstall mysql-1
 ```
-# -----------------------------------------------
-```sh
 
-<br>
-Deploy your chart:
-```sh
- helm install myapp ./mychart
-```
