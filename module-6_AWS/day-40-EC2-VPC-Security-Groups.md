@@ -1,4 +1,4 @@
-# Day-49: EC2-VPC-Security-Groups
+# Day-40: EC2-VPC-Security-Groups
 ### Hands-on Demo Plan (EC2, VPC, Security Groups)
 ### Step 1: Create a VPC
  - Go to VPC → Create VPC → VPC Only.
