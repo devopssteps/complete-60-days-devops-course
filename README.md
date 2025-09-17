@@ -67,15 +67,15 @@
 ## 🔹AWS Hands-on DevOps
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 39     | EC2, VPC, Security Groups                                             |
-| Day 40     | IAM Roles, Policies, Access Keys     |
-| Day 41     | S3 Buckets, CLI, Static Hosting                 |
-| Day 42     | ECR, ECS Basics         |
-| Day 43     | Launch Docker App on ECS Fargate                                         |
-| Day 44     | CloudWatch Logs + Monitoring                                           |
-| Day 45     | Route53, ELB, SSL      |
-| Day 46     | Auto Scaling & Load Balancer Setup                                           |
-| Project    | Deploy Docker app to ECS Fargate with ALB + Auto Scaling                 |
+| Day 40     | EC2, VPC, Security Groups                                             |
+| Day 41     | IAM Roles, Policies, Access Keys     |
+| Day 42     | S3 Buckets, CLI, Static Hosting                 |
+| Day 43     | ECR, ECS Basics         |
+| Day 44     | Launch Docker App on ECS Fargate                                         |
+| Day 45     | CloudWatch Logs + Monitoring                                           |
+| Day 46     | Route53, ELB, SSL      |
+| Day 47     | Auto Scaling & Load Balancer Setup                                           |
+| Day 48     | Project: Deploy Docker app to ECS Fargate with ALB + Auto Scaling                 |
 
 
 ## 🔹Cloud Infrastructure with Terraform
