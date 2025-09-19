@@ -41,6 +41,6 @@ sudo yum update -y
 sudo yum install httpd -y
 sudo systemctl start httpd
 sudo systemctl enable httpd
-echo "Hello from DevOps EC2 in VPC" | sudo tee /var/www/html/index.html
+echo "Hello from DevOps Steps" | sudo tee /var/www/html/index.html
 ```
  - Copy public IP → open in browser → you’ll see your message 🎉.
