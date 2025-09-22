@@ -17,12 +17,13 @@ Verify:
 aws s3 ls s3://my-devops-demo-bucket/
 ```
 
-### 3. Enable Static Website Hosting
- - Go to Bucket → Properties → Static Website Hosting → Enable.
- - Index document: index.html
- - Save settings → AWS gives you a website endpoint URL.
+### 3. Disable Block all public access
+ - Go to Bucket → Permissions → Edit Block public access (bucket settings) → Uncheck Block all public access  →  Click Save Changes
 
-### 4. Make Files Public (for Hosting)
+### 4. Enable Static Website Hosting
+ - Go to Bucket → Properties → Static Website Hosting → Enable.
+ - 
+### 5. Make Files Public (for Hosting)
  - Add a Bucket Policy like:
 ```sh
 {
@@ -46,3 +47,5 @@ http://my-devops-demo-bucket.s3-website-us-east-1.amazonaws.com
  - Creating & managing S3 buckets
  - Using AWS CLI for uploads
  - Enabling static website hosting
+
+
