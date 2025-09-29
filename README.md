@@ -11,14 +11,14 @@
 | Day 06     | Project: Deploy an E-commerce Website with PHP & MySQL Using Shell Script            |
 
 ## 🔹Docker Fundamentals
-| Day        | Topic                                                                             |
-| ---------- | --------------------------------------------------------------------------------- |
-| Day 07     | Docker Concepts With Hands On Example                                       |
-| Day 08     | Docker installation,Docker Registry (Hub + Private), Docker Images, Containers        |
-| Day 09     | Docker volume with Hands on Demo       |
-| Day 10     | Docker Networking with Hands on Demo                                             |
-| Day 11     | Real-Time Docker Troubleshooting & most common docker command we need know      |
-| Day 12     | Project: Explain docker compose and Dockerize a simple PHP app + Mysql DB using Docker Compose          |
+| Day       | Topic                                                                             |
+| --------- | --------------------------------------------------------------------------------- |
+| Day 07    | Docker Concepts With Hands On Example                                       |
+| Day 08    | Docker installation,Docker Registry (Hub + Private), Docker Images, Containers        |
+| Day 09    | Docker volume with Hands on Demo       |
+| Day 10    | Docker Networking with Hands on Demo                                             |
+| Day 11    | Real-Time Docker Troubleshooting & most common docker command we need know      |
+| Day 12    | Project: Explain docker compose and Dockerize a simple PHP app + Mysql DB using Docker Compose  |
 
 
 
@@ -71,11 +71,10 @@
 | Day 41     | IAM Roles, Policies, Access Keys     |
 | Day 42     | S3 Buckets, CLI, Static Hosting                 |
 | Day 43     | ECR, ECS Basics         |
-| Day 44     | Launch Docker App on ECS Fargate                                         |
-| Day 45     | CloudWatch Logs + Monitoring                                           |
-| Day 46     | Route53, ELB, SSL      |
-| Day 47     | Auto Scaling & Load Balancer Setup                                           |
-| Day 48     | Project: Deploy Docker app to ECS Fargate with ALB + Auto Scaling                 |
+| Day 44     | CloudWatch Logs + Monitoring                                           |
+| Day 45     | Route53, ELB, SSL      |
+| Day 46     | Auto Scaling & Load Balancer Setup                                           |
+| Day 47     | Project: Deploy Docker app to ECS Fargate with ALB + Auto Scaling                 |
 
 
 ## 🔹Cloud Infrastructure with Terraform
