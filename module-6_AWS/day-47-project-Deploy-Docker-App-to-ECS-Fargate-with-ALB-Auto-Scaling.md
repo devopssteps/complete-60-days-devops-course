@@ -1,4 +1,4 @@
-# Day-48: Deploy Docker App to ECS Fargate with ALB + Auto Scaling
+# Day-47: Deploy Docker App to ECS Fargate with ALB + Auto Scaling
 
 ### 🛠 Hands-on Demo Project: Deploy Docker App to ECS Fargate with ALB + Auto Scaling
 We’ll deploy a Dockerized Node.js App on ECS (Fargate) behind an Application Load Balancer (ALB) with Auto Scaling enabled.
