@@ -1,4 +1,4 @@
-# Day-45: CloudWatch Logs + Monitoring
+# Day-44: CloudWatch Logs + Monitoring
 
 ### Hands-on Demo: AWS CloudWatch Logs + Monitoring
 ### Step 0: Prerequisites
