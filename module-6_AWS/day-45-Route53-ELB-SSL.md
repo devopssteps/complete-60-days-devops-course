@@ -1,4 +1,4 @@
-# Day-46: Route53, ELB, SSL
+# Day-45: Route53, ELB, SSL
 
 ### Hands-on Demo: AWS Route 53 + ELB + SSL
 Architecture Overview
