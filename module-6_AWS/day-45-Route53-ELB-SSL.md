@@ -31,7 +31,7 @@ sudo systemctl enable httpd
   1. Edit ALB Listeners → Add HTTPS (port 443).
   2. Select the SSL certificate from ACM.
   3. Forward traffic to your Target Group (EC2 app).
-✅ Now your app works on https://my-alb-123456.elb.amazonaws.com
+
 
 ### Step 5: Configure Route 53
   1. Buy or transfer a domain to Route 53 (e.g., myawsdemo.com).
