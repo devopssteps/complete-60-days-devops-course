@@ -80,14 +80,14 @@
 ## 🔹Cloud Infrastructure with Terraform
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 47     | What is IaC? Terraform Basics                              |
-| Day 48     | Providers, Variables, Outputs     |
-| Day 49     | Create AWS EC2, S3 with Terraform                 |
-| Day 50     | Provision Jenkins with Terraform     |
-| Day 51     | Terraform with Ansible Integration                                        |
-| Day 52     | Remote Backends & State Management                                       |
-| Day 53     | Terraform Cloud & Workspaces
-| Project    | Terraform Cloud & Workspaces                |
+| Day 48     | What is IaC? Terraform Basics                              |
+| Day 49     | Providers, Variables, Outputs     |
+| Day 50     | Create AWS EC2, S3 with Terraform                 |
+| Day 51     | Provision Jenkins with Terraform     |
+| Day 52     | Terraform with Ansible Integration                                        |
+| Day 53     | Remote Backends & State Management                                       |
+| Day 54     | Terraform Cloud & Workspaces
+| Day 55     | Project: Terraform Cloud & Workspaces                |
 
 
 ## 🔹Final CI/CD Projects
