@@ -1,4 +1,4 @@
-# DAy-48: What is IaC? Terraform Basics with hands on demo  
+# Day-48: What is IaC? Terraform Basics with hands on demo  
 
 ### Step 1: What is IaC (Infrastructure as Code)?
  - IaC means managing and provisioning infrastructure using code instead of manual setup.
