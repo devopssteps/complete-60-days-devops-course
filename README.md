@@ -85,17 +85,20 @@
 | Day 50     | Provision Jenkins with Terraform     |
 | Day 51     | Terraform with Ansible Integration                                        |
 | Day 52     | Remote Backends & State Management                                       |
-| Day 53     | Terraform Cloud & Workspaces
+| Day 53     | Terraform Workspaces With hands on demo                                             |
+| Day 54     | Terraform Cloud With hands on demo
+
+
 
 
 ## 🔹Final CI/CD Projects
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 54     | CI/CD Project Overview                           |
-| Day 55     | Laravel or Node.js App Dockerized     |
-| Day 56     | Jenkins CI + Docker Build + Push                 |
-| Day 57     | Terraform Infra Setup on AWS   |
-| Day 58     | Ansible App Provisioning                                        |
+| Day 55     | CI/CD Project Overview                           |
+| Day 56     | Laravel or Node.js App Dockerized     |
+| Day 57    | Jenkins CI + Docker Build + Push                 |
+| Day 58    | Terraform Infra Setup on AWS   |
+| Day 59    | Ansible App Provisioning                                        |
 | Day 59     | Kubernetes Deploy on EKS                                   |
 | Day 60     | Monitoring with Prometheus + Grafana
 | Project    | Complete devops porject including what we have learned already         |
