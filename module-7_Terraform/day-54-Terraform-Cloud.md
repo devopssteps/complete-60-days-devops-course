@@ -1,6 +1,6 @@
-# Day-53: Terraform-Cloud-and-Workspaces
+# Day-54: Terraform Cloud
 
-# Hands-on Demo: Terraform Cloud & Workspaces
+# Hands-on Demo: Terraform Cloud 
 
 ### Step 1: Create Terraform Cloud Account
  1. Go to https://app.terraform.io
