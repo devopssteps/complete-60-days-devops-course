@@ -1,28 +1,39 @@
-# Day-54: Terraform Cloud
+# Day-54: Terraform Cloud Explained with Hands-On Demo
 
-# Hands-on Demo: Terraform Cloud 
+### 🧠 1️⃣ What is Terraform Cloud?
+Terraform Cloud is a SaaS (by HashiCorp) that:
+ - Stores your Terraform state securely in the cloud (instead of local)
+ - Runs Terraform remotely (no need to install Terraform locally)
+ - Enables collaboration (teams, workspaces, version control)
+ - Integrates directly with GitHub, GitLab, or Bitbucket
+Essentially — it’s a central control hub for Terraform automation and state management.
 
-### Step 1: Create Terraform Cloud Account
- 1. Go to https://app.terraform.io
- 2. Sign up (free tier is fine)
- 3. Create an Organization — e.g., ```devops-steps-org```
- 4. Create your first Workspace — e.g., ```terraform-aws-dev```
-
-### Step 2: Configure Terraform CLI Authentication
-From your local terminal, run:
+### 🧩 2️⃣ Hands-on Demo: Setup Terraform Cloud with AWS Example
+🪜 Step 1: Sign up for Terraform Cloud
+<br>
+Go to https://app.terraform.io <br>
+ → Create a free account. <br>
+Then:
+   1. Create an Organization
+   2. Create a Workspace
+       - Choose Version Control Workflow
+       - Connect to your GitHub Repo
+     
+### 🪜 Step 2: Prepare your local Terraform project
+Create a folder:
 ```sh
-terraform login
+mkdir terraform-cloud-demo && cd terraform-cloud-demo
 ```
-You’ll be prompted to open a URL in your browser and paste the token into your CLI.
+Create these files:
 
-### Step 3: Terraform Configuration (main.tf)
+File: ```main.tf```
 ```sh
 terraform {
   cloud {
-    organization = "devops-steps-org"
+    organization = "your-org-name"
 
     workspaces {
-      name = "terraform-aws-dev"
+      name = "aws-demo"
     }
   }
 
@@ -38,69 +49,68 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_instance" "demo" {
+resource "aws_instance" "example" {
   ami           = "ami-0c55b159cbfafe1f0"
   instance_type = "t2.micro"
 
   tags = {
-    Name = "TerraformCloudDemo"
+    Name = "terraform-cloud-demo"
   }
-}
-
-output "public_ip" {
-  value = aws_instance.demo.public_ip
 }
 ```
 
-### Step 4: Initialize Terraform Cloud Backend
+### 🪜 Step 3: Initialize Terraform
 ```sh
 terraform init
 ```
-You’ll see:
+✅ Output:
 ```sh
 Initializing Terraform Cloud...
-Connected to organization: devops-steps-org
-Workspace: terraform-aws-dev
 ```
+Terraform automatically connects to your Terraform Cloud workspace.
 
-### Step 5: Apply the Infrastructure
+### 🪜 Step 4: Set up AWS credentials
+Go to: <br>
+👉 Terraform Cloud → Workspace → Variables → Add
+| Key                   | Value           | Category             |
+| --------------------- | --------------- | -------------------- |
+| AWS_ACCESS_KEY_ID     | your-access-key | Environment Variable |
+| AWS_SECRET_ACCESS_KEY | your-secret-key | Environment Variable |
+
+### 🪜 Step 5: Push Code to GitHub
 ```sh
-terraform apply -auto-approve
+git init
+git add .
+git commit -m "Terraform Cloud demo"
+git branch -M main
+git remote add origin https://github.com/<yourname>/terraform-cloud-demo.git
+git push -u origin main
 ```
- - Terraform will run the plan in Terraform Cloud, not locally.
- - You can log in to Terraform Cloud → Workspace → “terraform-aws-dev” →
- - check the Runs, Plan, and Apply logs.
+Terraform Cloud will automatically detect the new commit and start a plan and apply run in the UI.
 
-### Step 6: Create Multiple Workspaces
-In Terraform Cloud, click Workspaces → New Workspace
+### 🪜 Step 6: Monitor the Run
+In Terraform Cloud Dashboard:
+ - You’ll see the run status (Plan → Apply)
+ - You can view logs, approve runs, and see outputs directly.
+
+### 🪜 Step 7: Verify in AWS
+Go to AWS Console → EC2 → Instances → You’ll see:
+```sh
+Name: terraform-cloud-demo
+```
+
+### 🧹 Step 8: Clean up
+From Terraform Cloud dashboard:
 <br>
-Create:
- - ```terraform workspace list```
- - ```terraform workspace select prod```
- - ```terraform workspace new stage```
-To switch between them in CLI:
-```sh
-terraform workspace list
-terraform workspace select prod
-terraform workspace new stage
-```
-Each workspace will have its own Terraform state, allowing you to manage different environments safely.
+Click Actions → Queue destroy plan → Confirm & Apply
 
-### Step 7: Verify Resources
-After applying, go to AWS EC2 Console → you’ll see an instance named
- - ✅ TerraformCloudDemo
-Switch workspace → reapply → new EC2 instance will appear (separate environment).
-
-
-### Terraform Cloud Best Practices
- - ✅ Always use Terraform Cloud for remote state & collaboration
- - ✅ Use separate workspaces for dev, stage, and prod
- - ✅ Enable cost estimation & run approvals
- - ✅ Store sensitive variables as environment variables
- - ✅ Integrate with VCS (GitHub) for automated runs
-
-### Summary
- - Terraform Cloud is the future of team-based infrastructure automation —
- - with remote state, workspaces, and collaboration all built-in!”
+### 🧠 3️⃣ Key Advantages of Terraform Cloud
+| Feature              | Benefit                                 |
+| -------------------- | --------------------------------------- |
+| Remote state storage | Secure and versioned state management   |
+| Remote execution     | No need to install Terraform locally    |
+| Team collaboration   | Access control and approvals            |
+| VCS integration      | Auto runs on commits                    |
+| Cost estimation      | Built-in Terraform plan cost estimation |
 
 
