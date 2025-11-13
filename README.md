@@ -88,7 +88,11 @@
 | Day 53     | Terraform Workspaces With hands on demo                                             |
 | Day 54     | Terraform Cloud With hands on demo
 
-
+## 🔹Monitoring
+| Day        | Topic                                                                             |
+| ---------- | --------------------------------------------------------------------------------- |
+| Day 55     | Monitoring with Prometheus + Grafana                           |
+| Day 56     | Prometheus Alertmanager Setup     |
 
 
 ## 🔹Final CI/CD Projects
