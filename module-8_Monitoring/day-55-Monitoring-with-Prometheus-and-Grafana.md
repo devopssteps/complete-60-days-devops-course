@@ -2,18 +2,18 @@
 
 ### Hands-on Demo: Monitoring with Prometheus + Grafana
 
-### 🧠 Overview
+### Overview
 You’ll install:
  - Prometheus → for collecting and storing metrics.
  - Node Exporter → to expose system metrics (CPU, memory, disk, etc.).
  - Grafana → to visualize metrics from Prometheus.
 
-### ⚙️ Step 1: Update your system
+### Step 1: Update your system
 ```sh
 sudo apt update && sudo apt upgrade -y
 ```
 
-### 🚀 Step 2: Install Prometheus
+### Step 2: Install Prometheus
 ```sh
 sudo useradd --no-create-home --shell /bin/false prometheus
 ```
@@ -111,7 +111,7 @@ Prometheus should now be running at:
 <br>
 👉 http://your-server-ip:9090
 
-### 💻 Step 6: Install Node Exporter (for system metrics)
+### Step 6: Install Node Exporter (for system metrics)
 ```sh
 cd /tmp
 wget https://github.com/prometheus/node_exporter/releases/download/v1.8.2/node_exporter-1.8.2.linux-amd64.tar.gz
@@ -151,7 +151,7 @@ Now check in your browser:
 <br>
 Prometheus should automatically collect from Node Exporter.
 
-### 📊 Step 7: Install Grafana
+### Step 7: Install Grafana
 Add the official Grafana repository:
 ```sh
 sudo systemctl enable grafana-server
@@ -180,7 +180,7 @@ http://localhost:9090
  4. Click Save & Test.
 
 
-### 🧩 Step 9: Import Grafana Dashboards
+### Step 9: Import Grafana Dashboards
 
 Go to: <br>
 👉 https://grafana.com/grafana/dashboards
@@ -190,7 +190,7 @@ Search for:
  - Prometheus 2.0 Overview (ID: 3662)
 Import them into Grafana for beautiful visual metrics.
 
-### 🎉 Done!
+### Done!
  - ✅ Prometheus running on port 9090
  - ✅ Node Exporter on 9100
  - ✅ Grafana dashboard on 3000
