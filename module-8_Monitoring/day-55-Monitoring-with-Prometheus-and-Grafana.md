@@ -56,7 +56,7 @@ sudo chown -R prometheus:prometheus /etc/prometheus /var/lib/prometheus
 ### 🧾 Step 3: Configure Prometheus
 Edit the config file:
 ```sh
-sudo nano /etc/prometheus/prometheus.yml
+sudo vi /etc/prometheus/prometheus.yml
 ```
 Example content:
 ```sh
@@ -76,7 +76,7 @@ Save and exit.
 
 ### ⚙️ Step 4: Create a Prometheus systemd service
 ```sh
-sudo nano /etc/systemd/system/prometheus.service
+sudo vi /etc/systemd/system/prometheus.service
 ```
 Paste:
 ```sh
@@ -123,7 +123,7 @@ sudo chown nodeusr:nodeusr /usr/local/bin/node_exporter
 ```
 Create a service:
 ```sh
-sudo nano /etc/systemd/system/node_exporter.service
+sudo vi /etc/systemd/system/node_exporter.service
 ```
 Paste:
 ```sh
