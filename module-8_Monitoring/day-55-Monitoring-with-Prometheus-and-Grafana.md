@@ -154,9 +154,12 @@ Prometheus should automatically collect from Node Exporter.
 ### Step 7: Install Grafana
 Add the official Grafana repository:
 ```sh
-sudo systemctl enable grafana-server
-sudo systemctl start grafana-server
-sudo systemctl status grafana-server
+sudo apt install -y software-properties-common
+sudo add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"
+wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
+sudo apt update
+sudo apt install grafana -y
+
 ```
 Start and enable Grafana:
 ```sh
