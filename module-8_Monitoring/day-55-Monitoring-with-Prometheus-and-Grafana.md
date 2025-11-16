@@ -203,8 +203,6 @@ Your monitoring system is now complete.
 | Node Exporter | Collects system metrics         |
 | Prometheus    | Scrapes and stores metrics      |
 | Grafana       | Visualizes metrics              |
-| AlertManager  | Sends alerts                    |
-| AWS / K8s     | Platform for monitoring targets |
 
 
 ### summary
