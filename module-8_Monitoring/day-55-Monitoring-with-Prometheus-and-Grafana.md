@@ -195,3 +195,18 @@ Import them into Grafana for beautiful visual metrics.
  - ✅ Node Exporter on 9100
  - ✅ Grafana dashboard on 3000
 
+Your monitoring system is now complete.
+
+### Project Summary
+| Tool          | Purpose                         |
+| ------------- | ------------------------------- |
+| Node Exporter | Collects system metrics         |
+| Prometheus    | Scrapes and stores metrics      |
+| Grafana       | Visualizes metrics              |
+| AlertManager  | Sends alerts                    |
+| AWS / K8s     | Platform for monitoring targets |
+
+
+### summary
+Monitoring is the heartbeat of DevOps — you can’t improve what you can’t measure.”
+With Prometheus and Grafana, you can track every metric in real time — from CPU load to app health!
