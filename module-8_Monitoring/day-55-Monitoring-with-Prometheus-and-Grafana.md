@@ -14,9 +14,6 @@ sudo apt update && sudo apt upgrade -y
 ```
 
 ### Step 2: Install Prometheus
-```sh
-sudo useradd --no-create-home --shell /bin/false prometheus
-```
 1️⃣ Create a Prometheus user
 ```sh
 sudo useradd --no-create-home --shell /bin/false prometheus
