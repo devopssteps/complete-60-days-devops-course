@@ -12,6 +12,7 @@ Grafana  ← reads metrics ←  Prometheus  ← scrapes metrics ←  cAdvisor
 sudo apt update
 sudo apt install docker.io -y
 sudo usermod -aG docker $USER
+newgrp docker
 ```
 
 ### 🟢 STEP-2: Create a project folder
