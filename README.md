@@ -92,20 +92,17 @@
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
 | Day 55     | Monitoring with Prometheus + Grafana                           |
-| Day 56     | Prometheus Alertmanager Setup     |
+| Day 56     | Docker container monitoring with Prometheus and Grafana     |
+| Day 57     | Prometheus Alertmanager Setup     |
+
 
 
 ## 🔹Final CI/CD Projects
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 55     | CI/CD Project Overview                           |
-| Day 56     | Laravel or Node.js App Dockerized     |
-| Day 57    | Jenkins CI + Docker Build + Push                 |
-| Day 58    | Terraform Infra Setup on AWS   |
-| Day 59    | Ansible App Provisioning                                        |
-| Day 59     | Kubernetes Deploy on EKS                                   |
-| Day 60     | Monitoring with Prometheus + Grafana
-| Project    | Complete devops porject including what we have learned already         |
+| Day 58     |                            |
+| Day 59     |      |
+| Day-60 Project    | Complete devops porject including what we have learned already         |
 
 
 ## Our final project DevOps project
