@@ -1,6 +1,4 @@
-# Day-56-Docker-container-monitoring-with-Prometheus-and-Grafana
-
-# Monitor docker container by prometheus & Grafana - Hands on Lab
+# Day-56: Monitor docker container by prometheus & Grafana - Hands on Lab
 
 ### ✅ Working Architecture
 ```sh
