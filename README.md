@@ -94,15 +94,15 @@
 | Day 55     | Monitoring with Prometheus + Grafana                           |
 | Day 56     | Docker container monitoring with Prometheus and Grafana     |
 | Day 57     | Prometheus Alertmanager Setup     |
-
+| Day 58     | Prometheus Alertmanager Setup For Docker Conatiner    |
+| Day 59     | Hands-On Demo for collecting application logs with Loki & Grafana      |
+| Day 60     | Loki Hands-On Demo for Kubernetes       |
 
 
 ## 🔹Final CI/CD Projects
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 58     |                            |
-| Day 59     |      |
-| Day-60 Project    | Complete devops porject including what we have learned already         |
+| Project    | Complete devops porject including what we have learned already         |
 
 
 ## Our final project DevOps project
