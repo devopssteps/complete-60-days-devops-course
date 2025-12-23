@@ -117,9 +117,9 @@ scrape_configs:
 global:
   resolve_timeout: 5m
   smtp_smarthost: 'smtp.gmail.com:465'
-  smtp_from: 'rajiv19831@gmail.com'
-  smtp_auth_username: 'rajiv19831@gmail.com'
-  smtp_auth_password: ''
+  smtp_from: 'Your from email address'
+  smtp_auth_username: 'Your from email address'
+  smtp_auth_password: 'Your app password'
   smtp_require_tls: false
 
 route:
@@ -131,10 +131,10 @@ route:
 receivers:
   - name: 'email-alerts'
     email_configs:
-      - to: 'rajiv19831@gmail.com'
-        from: 'rajiv19831@gmail.com'
-        auth_username: 'rajiv19831@gmail.com'
-        auth_password: ''
+      - to: 'Your sending email address'
+        from: 'Your from email address'
+        auth_username: 'Your from email addresss'
+        auth_password: 'Your-app-password'
         smarthost: 'smtp.gmail.com:465'
         require_tls: false
 ```
