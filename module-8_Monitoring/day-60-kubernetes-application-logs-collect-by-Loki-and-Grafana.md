@@ -1,4 +1,4 @@
-# Day 60: hands-on-demo-collect-kubernetes-logs-by-loki
+# Day 60: hands-on-demo-collect-kubernetes-logs-by-loki+grafana
 
 Complete hands-on demo to:
  - ✅ Run a Node.js application in Kubernetes
