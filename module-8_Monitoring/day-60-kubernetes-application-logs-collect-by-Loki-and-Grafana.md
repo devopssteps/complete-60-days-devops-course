@@ -8,8 +8,8 @@ Complete hands-on demo to:
 ### 🔹 Architecture (Simple)
 ```sh
 Node.js App (K8s Pod)
-        ↓ logs (stdout)
-Promtail (DaemonSet)
+        ↓ logs
+      Promtail 
         ↓
       Loki
         ↓
