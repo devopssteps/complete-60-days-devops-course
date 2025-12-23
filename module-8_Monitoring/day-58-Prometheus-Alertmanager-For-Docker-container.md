@@ -119,7 +119,7 @@ global:
   smtp_smarthost: 'smtp.gmail.com:465'
   smtp_from: 'rajiv19831@gmail.com'
   smtp_auth_username: 'rajiv19831@gmail.com'
-  smtp_auth_password: 'uluhawdgripsmpzf'
+  smtp_auth_password: ''
   smtp_require_tls: false
 
 route:
@@ -134,7 +134,7 @@ receivers:
       - to: 'rajiv19831@gmail.com'
         from: 'rajiv19831@gmail.com'
         auth_username: 'rajiv19831@gmail.com'
-        auth_password: 'uluhawdgripsmpzf'
+        auth_password: ''
         smarthost: 'smtp.gmail.com:465'
         require_tls: false
 ```
