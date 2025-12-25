@@ -193,5 +193,5 @@ level:error
 ```
 🔹 Search message text
 ```sh
-_msg:"Grafana"
+_msg:"Database"
 ```
