@@ -102,7 +102,7 @@
 ## 🔹Final CI/CD Projects
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Project    | Complete devops porject including what we have learned already         |
+| Project    | Complete devops project including what we have learned already         |
 
 
 ## Our final project DevOps project
