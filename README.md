@@ -11,14 +11,14 @@
 | Day 06     | Project: Deploy an E-commerce Website with PHP & MySQL Using Shell Script            |
 
 ## 🔹Docker Fundamentals
-| Day       | Topic                                                                             |
-| --------- | --------------------------------------------------------------------------------- |
-| Day 07    | Docker Concepts With Hands On Example                                       |
-| Day 08    | Docker installation,Docker Registry (Hub + Private), Docker Images, Containers        |
-| Day 09    | Docker volume with Hands on Demo       |
-| Day 10    | Docker Networking with Hands on Demo                                             |
-| Day 11    | Real-Time Docker Troubleshooting & most common docker command we need know      |
-| Day 12    | Project: Explain docker compose and Dockerize a simple PHP app + Mysql DB using Docker Compose  |
+| Day        | Topic                                                                             |
+| ---------- | --------------------------------------------------------------------------------- |
+| Day 07     | Docker Concepts With Hands On Example                                       |
+| Day 08     | Docker installation,Docker Registry (Hub + Private), Docker Images, Containers        |
+| Day 09     | Docker volume with Hands on Demo       |
+| Day 10     | Docker Networking with Hands on Demo                                             |
+| Day 11     | Real-Time Docker Troubleshooting & most common docker command we need know      |
+| Day 12     | Project: Explain docker compose and Dockerize a simple PHP app + Mysql DB using Docker Compose  |
 
 
 
