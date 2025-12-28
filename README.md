@@ -97,6 +97,7 @@
 | Day 58     | Prometheus Alertmanager Setup For Docker Conatiner    |
 | Day 59     | Hands-On Demo for collecting application logs with Loki & Grafana      |
 | Day 60     | Loki Hands-On Demo for Kubernetes       |
+| Day 61     | VictoriaLogs explain with hands on demo      |
 
 
 ## 🔹Final CI/CD Projects
