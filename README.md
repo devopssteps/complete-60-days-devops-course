@@ -99,6 +99,17 @@
 | Day 60     | Loki Hands-On Demo for Kubernetes       |
 | Day 61     | VictoriaLogs explain with hands on demo      |
 
+## 🔹Python for DevOps 
+| Day        | Topic                                                                             |
+| ---------- | --------------------------------------------------------------------------------- |
+| Day 62     | Python Basics for DevOps & Why we need to know python for devops profession                        |
+| Day 63     | Functions & Modules    |
+| Day 64     |     |
+| Day 65     |   |
+| Day 66     |       |
+| Day 67     |        |
+| Day 68     |       |
+
 
 ## 🔹Final CI/CD Projects
 | Day        | Topic                                                                             |
