@@ -463,13 +463,8 @@ for file in os.listdir(path):
 * `requests`, `subprocess`, `boto3`
 * Environment variables
 
----
 
-## 🎯 Bonus One-Line Interview Tip
 
-> “DevOps engineers use Python to glue different tools together and automate workflows.”
-
----
 
 
 
