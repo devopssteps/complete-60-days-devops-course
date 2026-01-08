@@ -1,7 +1,5 @@
-# day-39: Project github URL
-```sh
-https://github.com/rajivsiddiqui/helm-jenkins-k8s-nodejs
-```
+# day-39: Project 
+
 ### Step 1: Create a Sample App (Node.js Example)
 ```
 git clone https://github.com/devopssteps/nodejs-app
