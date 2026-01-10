@@ -1,10 +1,6 @@
 
 # day-66-Script-to-stop-all-EC2-instances-at-night-and-start-them-in-the-morning
 
-Real-world DevOps use case 👍
-This is **very popular for cost-saving automation**
-Below is a **complete hands-on demo** explaining how to **stop EC2 instances at night and start them in the morning using Python + Boto3**.
-
 ---
 
 # 🚀 Use Case: Auto Stop & Start EC2 Instances (Cost Optimization)
