@@ -32,6 +32,49 @@ Python is used in DevOps for:
 * Cloud & Kubernetes automation
 
 ---
+## 🔹 Run a Simple Command (ls -l)
+```sh
+import subprocess
+
+subprocess.run(["ls", "-l"])
+```
+## 🔹 Capture Command Output like ```uptime```
+```sh
+import subprocess
+
+result = subprocess.run(
+    ["uptime"],
+    capture_output=True,
+    text=True
+)
+
+print("Command Output:")
+print(result.stdout)
+```
+## Docker Command Automation
+See docker container:
+```sh
+subprocess.run(["docker", "ps"])
+```
+Check aws s3 bucket:
+```sh
+subprocess.run(["aws", "s3", "ls"])
+```
+## Combine with CLI Arguments (Real Tool)
+```sh
+import subprocess
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--cmd", required=True)
+args = parser.parse_args()
+
+subprocess.run(args.cmd.split())
+```
+Run
+```sh
+python3 run_cmd.py --cmd "df -h"
+```
 
 ## 🔹 Simple Automation Script (Disk Usage)
 
@@ -177,3 +220,13 @@ Run like a CLI tool:
 ./server_check.py --host 8.8.8.8
 ```
 
+---
+## 🎤 Interview Question (Add This)
+
+> How do you run Linux commands in Python?
+
+**Answer:**
+
+> Using the subprocess module, mainly `subprocess.run()` with return codes and output handling.
+
+---
