@@ -60,6 +60,8 @@ Check aws s3 bucket:
 ```sh
 subprocess.run(["aws", "s3", "ls"])
 ```
+Same way we can use kubectl relted k8s command
+
 ## Combine with CLI Arguments (Real Tool)
 ```sh
 import subprocess
