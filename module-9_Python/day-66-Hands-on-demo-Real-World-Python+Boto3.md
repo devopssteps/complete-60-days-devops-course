@@ -3,7 +3,7 @@
 
 ---
 
-# 🚀 Use Case: Auto Stop & Start EC2 Instances (Cost Optimization)
+# 🚀 Auto Stop & Start EC2 Instances (Cost Optimization)
 
 ### 🎯 Goal
 
