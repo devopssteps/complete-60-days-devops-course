@@ -1,7 +1,6 @@
 
 # day-66-Script-to-stop-all-EC2-instances-at-night-and-start-them-in-the-morning
 
----
 
 # 🚀 Auto Stop & Start EC2 Instances (Cost Optimization)
 
