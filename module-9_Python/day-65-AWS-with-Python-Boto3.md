@@ -1,6 +1,4 @@
-# day-65-AWS-with-Python-Boto3-Basics
-
-# ☁️ AWS with Python (Boto3 Basics) – Hands-On DevOps Demo
+# day-65: AWS with Python (Boto3 Basics) – Hands-On DevOps Demo
 
 ## 🎯 Goal
 
