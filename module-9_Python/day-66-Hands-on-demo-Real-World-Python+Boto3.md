@@ -194,7 +194,7 @@ This avoids stopping **production or critical servers**.
 
 ---
 
-# 📌 DevOps Interview Question (Add to Video)
+# 📌 DevOps Interview Question 
 
 **Q:** Why use Boto3 instead of AWS Console?
 **A:**
