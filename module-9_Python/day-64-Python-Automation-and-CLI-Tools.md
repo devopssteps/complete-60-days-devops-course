@@ -20,7 +20,7 @@ python3 --version
 
 ---
 
-## 🔹 Part 1: Why Python for DevOps Automation?
+## 🔹 Why Python for DevOps Automation?
 
 Python is used in DevOps for:
 
@@ -33,7 +33,7 @@ Python is used in DevOps for:
 
 ---
 
-## 🔹 Part 2: Simple Automation Script (Disk Usage)
+## 🔹 Simple Automation Script (Disk Usage)
 
 ### 📌 Task:
 
@@ -66,7 +66,7 @@ python3 disk_check.py
 
 ---
 
-## 🔹 Part 3: Automate Linux Command Execution
+## 🔹 Automate Linux Command Execution
 
 ### 📌 Task:
 
@@ -92,7 +92,7 @@ python3 system_info.py
 
 ---
 
-## 🔹 Part 4: Python CLI Tool using argparse
+## 🔹Python CLI Tool using argparse
 
 ### 📌 Task:
 
@@ -136,7 +136,7 @@ python3 server_check.py --host google.com
 
 ---
 
-## 🔹 Part 5: Automate Log Monitoring
+## 🔹Automate Log Monitoring
 
 ### 📌 Task:
 
@@ -159,7 +159,7 @@ except FileNotFoundError:
 
 ---
 
-## 🔹 Part 6: Make Script Executable (Linux Style)
+## 🔹Make Script Executable (Linux Style)
 
 ```bash
 chmod +x server_check.py
