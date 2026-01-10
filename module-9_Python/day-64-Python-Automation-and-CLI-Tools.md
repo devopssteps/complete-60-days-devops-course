@@ -221,9 +221,125 @@ Run like a CLI tool:
 ```bash
 ./server_check.py --host 8.8.8.8
 ```
+---
+# Handling environment variables  
+Environment variables in Python** is *core DevOps knowledge* (used in Docker, Kubernetes, CI/CD, AWS, Jenkins, etc.).
+
+## 🔹 What are Environment Variables? (DevOps View)
+
+Environment variables are used to store:
+
+* Secrets (tokens, passwords)
+* Configuration (env, region, ports)
+* Runtime values (PATH, HOME)
+
+Examples:
+
+```bash
+ENV=prod
+DB_HOST=localhost
+AWS_REGION=us-east-1
+```
 
 ---
-## 🎤 Interview Question (Add This)
+## 🔹 View Environment Variables (Linux)
+
+```bash
+echo $HOME
+echo $PATH
+```
+## 🔹 Read Environment Variables in Python
+
+### 📝 Script: `read_env.py`
+
+```python
+import os
+
+home = os.environ.get("HOME")
+path = os.environ.get("PATH")
+
+print("HOME:", home)
+print("PATH:", path)
+```
+
+Run:
+
+```bash
+python3 read_env.py
+```
+---
+## 🔹Set Environment Variables Temporarily (Shell)
+
+```bash
+export APP_ENV=dev
+export APP_PORT=8080
+```
+## Access Custom Environment Variables in Python
+
+### 📝 Script: `app_config.py`
+
+```python
+import os
+
+env = os.environ.get("APP_ENV")
+port = os.environ.get("APP_PORT")
+
+print(f"Running in {env} mode on port {port}")
+```
+---
+## 🔹 Set Environment Variables Inside Python (Runtime)
+
+⚠️ Valid only for current process:
+
+```python
+import os
+
+os.environ["DEBUG"] = "true"
+print(os.environ["DEBUG"])
+```
+---
+## 🔹 Environment Variables with `.env` File (Very Important)
+
+### 📌 Step 1: Create `.env` file
+
+```
+APP_ENV=production
+DB_USER=admin
+DB_PASS=secret123
+```
+
+### 📌 Step 2: Install dependency
+
+```bash
+pip install python-dotenv
+```
+
+### 📌 Step 3: Load `.env` in Python
+
+```python
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+print(os.environ.get("DB_USER"))
+```
+
+✅ Used in **Docker, Kubernetes, CI/CD pipelines**.
+---
+## 🔹 DevOps Use Case – Jenkins Example
+
+```python
+import os
+
+build_id = os.environ.get("BUILD_ID")
+job_name = os.environ.get("JOB_NAME")
+
+print(f"Job: {job_name}, Build: {build_id}")
+```
+
+---
+## 🎤 Interview Question
 
 > How do you run Linux commands in Python?
 
@@ -232,3 +348,8 @@ Run like a CLI tool:
 > Using the subprocess module, mainly `subprocess.run()` with return codes and output handling.
 
 ---
+> How do you manage secrets in Python applications?
+
+**Answer:**
+
+> By using environment variables and .env files instead of hardcoding.
