@@ -264,7 +264,7 @@ for r in ec2.describe_instances()["Reservations"]:
 
 **Q:** How do you automate AWS using Python?
 
-**A:**
+**Answer:**
 
 > Using Boto3 SDK with proper IAM permissions and credentials.
 
