@@ -197,6 +197,7 @@ This avoids stopping **production or critical servers**.
 # 📌 DevOps Interview Question 
 
 **Q:** Why use Boto3 instead of AWS Console?
+
 **A:**
 
 > Boto3 allows automation, repeatability, cost optimization, and integration with CI/CD pipelines.
