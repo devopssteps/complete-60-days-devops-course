@@ -206,30 +206,6 @@ python3 delete_deployment.py
 
 ---
 
-# 🧪 MINI PROJECT (Perfect for Students)
-
-### 🎯 Project: Auto Cleanup CrashLoopBackOff Pods
-
-```python
-from kubernetes import client, config
-
-config.load_kube_config()
-v1 = client.CoreV1Api()
-
-pods = v1.list_pod_for_all_namespaces()
-
-for pod in pods.items:
-    if pod.status.container_statuses:
-        for cs in pod.status.container_statuses:
-            if cs.state.waiting and cs.state.waiting.reason == "CrashLoopBackOff":
-                print("Deleting pod:", pod.metadata.name)
-                v1.delete_namespaced_pod(
-                    name=pod.metadata.name,
-                    namespace=pod.metadata.namespace
-                )
-```
-
----
 
 # 🧠 Interview Question (Very Important)
 
