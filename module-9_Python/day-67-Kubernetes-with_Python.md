@@ -138,7 +138,38 @@ Verify:
 kubectl get deploy
 kubectl get pods
 ```
-
+---
+### Run same deployment by kubectl
+Crate a file ```python-nginx-deployment.yaml```
+```sh
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-nginx
+  labels:
+    app: python-nginx
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: python-nginx
+  template:
+    metadata:
+      labels:
+        app: python-nginx
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:latest
+          ports:
+            - containerPort: 80
+```
+Now run and varify the file 
+```sh
+kubectl apply -f python-nginx-deployment.yaml
+kubectl get all
+kubectl delete -f python-nginx-deployment.yaml
+```
 ---
 
 # 🟢 DEMO 3: Scale Deployment Using Python
