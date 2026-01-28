@@ -210,6 +210,7 @@ python3 delete_deployment.py
 # 🧠 Interview Question (Very Important)
 
 **Q:** Why use Python instead of kubectl?
+
 **A:**
 
 > Python enables automation, logic, loops, error handling, and integration with CI/CD tools.
