@@ -14,9 +14,9 @@ Use **one Python automation script** to:
 ```
 cloud-automation-python/
 │
-├── app/
+├── application/
 │   ├── Dockerfile
-│   └── server.js
+│   └── app/server.js
 │
 ├── k8s/
 │   ├── deployment.yaml
@@ -27,10 +27,9 @@ cloud-automation-python/
 │   ├── update_lb.py
 │   ├── collect_logs.py
 │   ├── upload_logs_s3.py
-│   └── notify_slack.py
+│   
 │
 ├── main.py
-├── requirements.txt
 └── README.md
 ```
 
