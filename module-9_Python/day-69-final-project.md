@@ -14,7 +14,7 @@ Use **one Python automation script** to:
 ```
 cloud-automation-python/
 │
-├── application/
+├── web/
 │   ├── Dockerfile
 │   └── app/server.js
 │
