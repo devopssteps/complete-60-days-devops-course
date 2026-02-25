@@ -1,4 +1,4 @@
-# day-69-final-project
+# day-69: Final python module project
 ### 📌 Project Goal
 
 Use **one Python automation script** to:
