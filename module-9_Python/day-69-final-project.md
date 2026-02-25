@@ -35,7 +35,7 @@ cloud-automation-python/
 
 ---
 
-# 🛠 STEP 0 – PREREQUISITES (Explain First in Video)
+# 🛠 STEP 0 – PREREQUISITES 
 
 * EKS cluster running
 * `kubectl` configured
