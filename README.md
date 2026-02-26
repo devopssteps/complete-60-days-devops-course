@@ -109,6 +109,7 @@
 | Day 66     | Hands-on demo explaining how to stop EC2 instances at night and start them in the morning using Python + Boto3    |
 | Day 67     | Kubernetes + Python automation       |
 | Day 68     | CI/CD Integration Using Python in Jenkins      |
+| Day 69     | Python for DevOps Final Project       |
 
 
 ## 🔹Final CI/CD Projects
