@@ -207,8 +207,41 @@ print("☁ Logs uploaded to S3")
 ```
 
 ---
+# 🧩 STEP 6 – Send Slack Notification
+Beofore run the notify_slack.py make sure you set the salck webhook in your environment variable
+```sh
+export SLACK_WEBHOOK="https://hooks.slack.com/services/XXXX/XXXX/XXXX"
+```
+### `notify_slack.py`
 
-# 🧠 STEP 6 – Master Script (One Command Automation)
+```python
+import requests
+import os
+import sys
+
+SLACK_WEBHOOK = os.getenv("SLACK_WEBHOOK")
+
+if not SLACK_WEBHOOK:
+    print("❌ SLACK_WEBHOOK environment variable not set!")
+    sys.exit(1)
+
+msg = {
+    "text": "🚀 EKS Deployment Successful\n"
+            "✔ App Deployed\n"
+            "✔ LoadBalancer Active\n"
+            "✔ Logs Uploaded to S3"
+}
+
+response = requests.post(SLACK_WEBHOOK, json=msg)
+
+if response.status_code == 200:
+    print("✅ Slack notification sent successfully!")
+else:
+    print("❌ Failed to send Slack notification:", response.text)
+```
+
+---
+# 🧠 STEP 7 – Master Script (One Command Automation)
 
 ### `main.py`
 
