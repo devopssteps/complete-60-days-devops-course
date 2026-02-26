@@ -112,7 +112,7 @@
 | Day 69     | Python for DevOps Final Project       |
 
 
-## 🔹Final CI/CD Projects
+## 🔹Final Capstone CI/CD Projects
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
 | Project    | Complete devops project including what we have learned already         |
