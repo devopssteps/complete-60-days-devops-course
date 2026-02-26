@@ -238,8 +238,29 @@ print("🎯 Cloud Automation Completed Successfully")
    
 ---
 
+# The following command i used when do the video 
 
+### Check Current kubectl Context
+```sh
+kubectl config current-context
+```
+Check Available Contexts
+```sh
+kubectl config get-contexts
+```
 
+Update kubeconfig for EKS
+```sh
+aws eks update-kubeconfig --region <region> --name <cluster-name>
+```
+Switch to Minikube Context
+```sh
+kubectl config use-context minikube
+```
+Now verify:
+```sh
+kubectl config current-context
+```
 
 
 
