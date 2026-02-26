@@ -7,6 +7,22 @@ Use **one Python automation script** to:
 2. Update & verify **LoadBalancer service**
 3. Collect application logs from Kubernetes
 4. Upload logs to **AWS S3**
+5. Slack notification 
+
+---
+
+# 🧱 TECHNOLOGY STACK (Interview Gold)
+
+| Tool                     | Purpose                    |
+| ------------------------ | -------------------------- |
+| Python                   | Automation language        |
+| Boto3                    | AWS SDK (S3, EKS metadata) |
+| Kubernetes Python Client | K8s automation             |
+| Docker                   | Containerized app          |
+| AWS EKS                  | Kubernetes cluster         |
+| AWS S3                   | Log storage                |
+| Slack Webhook            | Notification               |
+| Jenkins (optional)       | CI/CD trigger              |
 
 ---
 # 🗂 PROJECT STRUCTURE
