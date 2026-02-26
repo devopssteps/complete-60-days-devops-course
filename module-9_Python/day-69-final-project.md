@@ -150,11 +150,11 @@ import time
 config.load_kube_config()
 v1 = client.CoreV1Api()
 
-svc = v1.read_namespaced_service("node-app-service", "default")
+svc = v1.read_namespaced_service("node-demo-service", "default")
 
 while not svc.status.load_balancer.ingress:
     time.sleep(5)
-    svc = v1.read_namespaced_service("node-app-service", "default")
+    svc = v1.read_namespaced_service("node-demo-service", "default")
 
 lb_ip = svc.status.load_balancer.ingress[0].hostname
 print(f"🌍 LoadBalancer URL: {lb_ip}")
