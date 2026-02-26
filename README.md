@@ -100,13 +100,13 @@
 | Day 61     | VictoriaLogs explain with hands on demo      |
 
 ## 🔹Python for DevOps 
-| Day        | Topic                                                                                                          |
-| ---------- | ---------------------------------------------------------------------------------------------- |
-| Day 62     | Python Basics for DevOps & Why we need to know python for devops profession                        |
+| Day        | Topic                                                                                                            |
+| ---------- | ---------------------------------------------------------------------------------------------------------------- |
+| Day 62     | Python Basics for DevOps & Why we need to know python for devops profession                                      |
 | Day 63     | Functions & Modules    |
 | Day 64     | Python Automation & CLI Tools    |
 | Day 65     | AWS with Python Boto3  |
-| Day 66     | Hands-on demo explaining how to stop EC2 instances at night and start them in the morning using Python + Boto3 |
+| Day 66     | Hands-on demo explaining how to stop EC2 instances at night and start them in the morning using Python + Boto3    |
 | Day 67     | Kubernetes + Python automation       |
 | Day 68     | CI/CD Integration Using Python in Jenkins      |
 
