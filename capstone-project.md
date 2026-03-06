@@ -1,12 +1,12 @@
 # 1️⃣ Project Title
 
-**End-to-End CI/CD Pipeline Implementation for Java Application using Modern DevOps Tools (2025 Stack)**
+**End-to-End CI/CD Pipeline Implementation for Java Application using Modern DevOps Tools (2026 Stack)**
 
 ---
 
 # 2️⃣ Project Overview
 
-This capstone project demonstrates how to build and automate a complete CI/CD pipeline for a Java-based web application using the most in-demand DevOps tools in 2025.
+This capstone project demonstrates how to build and automate a complete CI/CD pipeline for a Java-based web application using the most in-demand DevOps tools in 2026.
 
 The objective was to design, implement, and deploy a production-ready automated pipeline that integrates source control, build automation, configuration management, containerization, orchestration, and monitoring.
 
