@@ -1,4 +1,11 @@
-## ✅ Day 01: What is DevOps? SDLC vs DevOps, CI/CD Concepts
+## ✅ Day 01: Devops fundamental
+Todays video with cover the following things:
+ - What is DevOps?
+ - SDLC vs DevOps,
+ - CI/CD Concepts
+ - DevOps Tools Overview
+ - Real-Time Workflow Example when we use DevOps
+
 
 ## 🔹 What is DevOps?
 DevOps is a combination of:
