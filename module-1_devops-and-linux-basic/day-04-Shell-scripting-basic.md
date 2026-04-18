@@ -22,8 +22,6 @@ Make it executable:
 chmod +x hello.sh
 ./hello.sh
 ```
-🎙️ Narration:
-<br>
 This simple script prints 'Hello, World!'. The first line #!/bin/bash tells the system to use Bash to interpret the script."
 
 ### Run a shell file
@@ -39,9 +37,7 @@ File: variables.sh
 name="Rajiv"
 echo "My name is $name"
 ```
-🎙️ Narration:
-<br>
-"Variables store data. Use = without spaces. $name accesses the value.
+Variables store data. Use = without spaces. $name accesses the value.
 
 ### 👂 Read User Input
 File: user_input.sh
@@ -180,15 +176,12 @@ cat .bash_history               # histtory file location is home/user/.bash_hist
 cat /home/rajiv/.bash_history    # login as a root and see rajiv user history
 ```
 
-### ✅ Wrap Up and Summary
-Narration:
-<br>
-"Today you learned how to write basic Bash scripts with variables, inputs, conditions, loops, and functions. Bash scripting is a key tool for DevOps and system automation!"
+### ✅ Summary
+
+Today you learned how to write basic Bash scripts with variables, inputs, conditions, loops, and functions. Bash scripting is a key tool for DevOps and system automation!
 
 
-## Intermediate level
-
-### echo message with green color
+### Demo: Echo message with green color
 ```sh
  echo -e "\033[0;32mRajiv\033[0m"
 ```
@@ -226,11 +219,6 @@ Now we can use this function to print anything in green or red color -  here we 
 print_color "green" "dhaka"
 print_color "red" "dhaka"
 ```
-
-
-
-
-
 
 
 
