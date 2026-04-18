@@ -1,4 +1,4 @@
-# day 08- Git & GitHub Basics
+# day 05- Git & GitHub Basics
 
 ### 📌 What is Git & GitHub?
 | Concept | Description                                             |
