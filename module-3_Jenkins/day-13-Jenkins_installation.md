@@ -75,7 +75,7 @@ http://localhost:8080
    docker exec -it 0e70fabd682c /bin/bash
    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
    ```
- - use this caommnd ```docker logs -f jenkins``` and scroll up then you see the password docker logs -f jenkins 
+ - use this caommnd ```docker logs -f jenkins``` and scroll up then you see the password
 
 ### Install jenkins by docker command
 ✅ Step 1: Pull Jenkins Image
