@@ -34,7 +34,7 @@ docker network create --driver=bridge --subnet=192.168.10.0/24 net1
 ```
 ```sh
 docker container run -itd --name=b1 --net=net1 centos:7
-docker container run -itd --name=b1 --net=net1 centos:7
+docker container run -itd --name=b2 --net=net1 centos:7
 ```
 Now try ping
 ```sh
