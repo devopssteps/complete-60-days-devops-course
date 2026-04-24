@@ -103,7 +103,7 @@ Jenkins will:
  - ✅ Build Docker image
  - ✅ Run container
 
-### 🧼 Step 6: Clean Up (Optional)
+### 🧼 Step 6: Clean Up 
 ```sh
 docker ps -a
 docker stop <container_id>
