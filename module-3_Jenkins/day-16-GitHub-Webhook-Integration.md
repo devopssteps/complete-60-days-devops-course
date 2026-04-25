@@ -67,15 +67,4 @@ git push origin main
  - Webhook log in GitHub shows delivery status.
  - Ensure GitHub repo is linked correctly and Jenkins credentials are valid.    
 
- ### 🖼️ Suggested Thumbnail Text
-🧲 "GitHub to Jenkins Webhook | Auto CI/CD Trigger!"
-
-
-
-## not using this one
-### ✅ Step 3: Add a Simple Build Step
-In Build section, add Execute Shell and enter:
-```sh
-echo "Code pulled from GitHub!"
-git log -1
-```
+ 
