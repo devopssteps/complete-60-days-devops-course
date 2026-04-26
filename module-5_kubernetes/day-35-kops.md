@@ -64,7 +64,7 @@ Example:
 ```sh
 kops create cluster --name=devopssteps.com --state=s3://kops-install-bucket --zones=us-east-1a,us-east-1b --node-count=2 --node-size=t3.small --control-plane-size=t3.medium --dns-zone=devopssteps.com --node-volume-size=12 --control-plane-volume-size=12 --ssh-public-key ~/.ssh/id_ed25519.pub
 ```
-OR, the following way if you create s3 from command line
+OR, the following way if you create from command line
 ```sh
 kops create cluster \
   --name=k8s.example.com \
