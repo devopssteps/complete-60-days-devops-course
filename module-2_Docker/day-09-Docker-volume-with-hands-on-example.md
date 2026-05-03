@@ -49,7 +49,7 @@ docker rm -f nginx-demo
 ```
 Now run a new container using the same volume:
 ```sh
-ocker run -d --name nginx-demo2 -p 8081:80 -v mydata:/usr/share/nginx/html nginx
+docker run -d --name nginx-demo2 -p 8081:80 -v mydata:/usr/share/nginx/html nginx
 ```
 🔁 The HTML content persists, even though the old container is gone.
 
