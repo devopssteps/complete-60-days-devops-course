@@ -92,6 +92,6 @@ Click EC2 action > Select Stop this instanc > give a name if alearm > Next > Cli
 ```sh
 aws cloudwatch set-alarm-state --alarm-name private_ec2_cpu_use_high1 --state-value ALARM --state-reason "Testing"
 ```
-NB: jsut change your alarm name in this script
+NB: Just change your alarm name in this script
 
 
