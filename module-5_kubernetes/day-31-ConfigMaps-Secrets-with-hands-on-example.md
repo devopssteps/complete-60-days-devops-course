@@ -1,9 +1,5 @@
 ### day 31: explain k8s ConfigMaps, Secrets with hands on example"
 
-ConfigMaps and Secrets is one of the most important Kubernetes concepts, I’ll break it down into:
- - Content structure for your video (step-by-step hands-on demo).
- - Sample Kubernetes YAML files for Services, Ingress, ConfigMaps, and Secrets.
-
 ### ConfigMap
  - 🔹 Concept: ConfigMaps store non-sensitive configuration values.
  - 🔹 Demo:
