@@ -1,9 +1,4 @@
-### day 32: explain k8s Services & Ingress with hands on example"
-
-Service & Ingerss is one of the most important Kubernetes topic, and I’ll break it down into:
- - Content structure for your video (step-by-step hands-on demo).
- - Sample Kubernetes YAML files for Services & Ingress.
-
+### Day 32: explain k8s Services & Ingress with hands on example"
 
 ### Kubernetes Service
 
