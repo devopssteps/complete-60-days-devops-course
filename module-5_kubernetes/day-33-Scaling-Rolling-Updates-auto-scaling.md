@@ -1,3 +1,5 @@
+# Day 33: Scaling, Rolling Updates & Auto Scaling
+
 ### 🔧 1. Why is Scaling? 
   - Why scaling is important (high traffic, redundancy)
   - We can scale in two ways: manually or automatically.
