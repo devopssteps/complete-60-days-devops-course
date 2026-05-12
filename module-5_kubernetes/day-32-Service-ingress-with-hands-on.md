@@ -1,4 +1,4 @@
-### Day 32: explain k8s Services & Ingress with hands on example"
+### Day 32: Explain k8s Services & Ingress with hands on example"
 
 ### Kubernetes Service
 
