@@ -19,7 +19,7 @@ spec:
 ```
 👉 Explanation:
  - This PV provides 1Gi storage.
- - It uses hostPath (good for demo in Minikube).
+ - It uses hostPath (best for Minikube).
  - In cloud providers, you’d use EBS (AWS), Persistent Disk (GCP), Azure Disk, etc.
 
 ### Step 2: Create a Persistent Volume Claim (PVC)
