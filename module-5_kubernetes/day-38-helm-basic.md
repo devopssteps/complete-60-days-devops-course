@@ -1,9 +1,5 @@
-# Day-38: Helm basic
+# Day-38: Helm Basics – Hands-On Demo
 
-Helm is one of the most searched Kubernetes topics, so making a clear, hands-on Helm Basics video is a great idea for your channel. Let me break it down for you:
-
-
-## 🎬 Helm Basics – Hands-On Example for Your Video
 ### 🔹 1. What is Helm?
  - Helm = “Package Manager for Kubernetes”
  - Instead of writing long YAML files, you package apps into Charts and deploy them with one command.
